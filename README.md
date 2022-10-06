@@ -13,8 +13,8 @@ Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15. The requirements.
 ## Contents
 
 This repository contains a pseudo code for the ensemble method used in [1]:
-- utilities_nowcasting.py mainly includes all the necessary functions for implementing the ensemble strategy based on the optimization of classical skill scores and value-weighted skill scores and assessing the performance of predictions.
-- main_nowcasting.py is a demo which contains the definition of of the Long-Term Recurrent neural Network (LRCN) model used in the application shown in [1], and the code for the ensemble deep learning method described above. 
+- utilities_scores.py mainly includes all the necessary functions for implementing the ensemble strategy based on the optimization of classical skill scores and value-weighted skill scores and assessing the performance of predictions.
+- demo_ensemble_method.ipynb is a demo which contains the definition of of the Long-Term Recurrent neural Network (LRCN) model used in the application shown in [1], and the code for the ensemble deep learning method described above. 
 
 ## Citation
 
