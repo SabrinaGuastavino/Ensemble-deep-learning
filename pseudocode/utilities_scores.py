@@ -249,7 +249,7 @@ def optimize_threshold_skill_scores_weight_matrix(probability_prediction, Y_trai
     return best_xss_threshold, metrics_training, nss_vector, best_xss_threshold_tss, best_xss_threshold_hss, best_xss_threshold_csi,best_xss_threshold_tss_hss
 
 
-#ok
+#
 def metrics_classification_weight(y_real, y_pred, print_skills=True):
 # computation of value-weighted confusion matrix and value-weighted skill scores (wfar, wpod, wacc, whss, wtss, wfnfp, wcsi) given in input:
 # - y_real :  the actual label vector
@@ -812,7 +812,7 @@ def classification_skills(y_real, y_pred):
     else:
         csi = TP/(TP+FP+FN)
 
-    #, pod, acc, hss, tss, fnfp, tpr, tnr, pacc, nacc, wacc, wtpr)
+ 
     return cm.tolist(), far, pod, acc, hss, tss, fnfp, csi
 
 
